@@ -56,6 +56,7 @@ WHERE [Name] LIKE 'S%'
 --QUESTION 11 Write a query that retrieves the columns Name and ListPrice from the Production.Product table. Your result set should look something like the following. Order the result set by the Name column. --
 SELECT [Name],ListPrice
 FROM Production.Product
+WHERE [Name] LIKE 'S%'
 ORDER BY [Name]
 
 --QUESTION 12 Write a query that retrieves the columns Name and ListPrice from the Production.Product table. Your result set should look something like the following. Order the result set by the Name column. The products name should start with either 'A' or 'S'--
